@@ -1,0 +1,207 @@
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background: #f1ece9;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.big-picture {
+    padding: 10px;
+    height: 600px;
+    background: #000 50%/cover no-repeat;
+}
+
+.img-header {
+    background-image: url("../img/background1.jpg");
+
+   
+   height: 500px;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-header {
+    margin: 150px auto 30px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-nav {
+    padding: 0;
+    text-align: center;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav__href {
+    display: inline-block;
+    padding: 15px;
+    background: rgba(128, 128, 128, 0.3);
+    color: white;
+    width: 200px;
+    text-align: center;
+    transition: .3s;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-nav__href:hover {
+    background: rgba(128, 128, 128, 0.5);
+}
+
+.main-nav__href_active {
+    background: rgba(128, 128, 128, 0.7);
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background:#f1ece9; ;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+   font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+.container_top {
+    top: -200px;
+    
+}
+
+.section {
+    margin-bottom: 40px;
+    top: -200px;
+    text-align: center;
+}
+
+.row {
+    position: relative;
+}
+
+.row_centered {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card {
+    max-width: 200px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card__title{
+    padding: 10px 0;
+    margin: 0;
+    color:darkgrey;
+}
+
+.card__img{
+    width: 200px;
+    height: 200px;
+    background: #fff 50%/cover no-repeat;
+}
+
+.card__img_1{ 
+    background-image: url('../img/1step.jpg')
+}
+.card__img_2{ 
+    background-image: url('../img/admiralteystvo.jpg')
+}
+.card__img_3{ 
+        background-image: url('../img/akademy.jpg')
+}
+
+.card__img_4{ 
+    background-image: url('../img/rastrelli.jpg')
+}
+
+.card__img_5{ 
+    background-image: url('../img/blokada.jpg')
+}
+
+.card__img_6{ 
+    background-image: url('../img/today.jpg')
+}
+.card__img_7{ 
+    background-image: url('../img/palacejpg.jpg')
+}
+.card__img_8{ 
+    background-image: url('../img/spasnacrovi.jpg')
+}
+.card__img_9{ 
+    background-image: url('../img/ekaterininskiypalace.jpg')
+}
+.card__img_10{ 
+    background-image: url('../img/kazanskiysobor.jpg')
+}
+.card__img_11{ 
+    background-image: url('../img/kuntskamers.jpg')
+}
+.card__img_12{ 
+    background-image: url('../img/isaakievskiy.jpg')
+}
+.card__img_13{ 
+    background-image: url('../img/trezini.jpg')
+}
+.card__img_14{ 
+    background-image: url('../img/ioaggan.jpg')
+}
+.card__img_15{ 
+    background-image: url('../img/Jean-Baptiste_Greuze.jpg')
+}
+.card__img_16{ 
+    background-image: url('../img/rasstrelli.jpg')
+}
+.card__img_17{ 
+    background-image: url('../img/dgovani.jpg')
+}
+.card__img_18{ 
+    background-image: url('../img/savva.jpg')
+}
+
+
+.main-footer{
+    padding: 10px;
+    text-align: center;
+    background: grey;
+    font-size: 20px;
+    color: white;
+}
+
+
+.parallax {
+       background-image: url("'../img/background1.jpg'");
+
+   
+    height: 100%;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
